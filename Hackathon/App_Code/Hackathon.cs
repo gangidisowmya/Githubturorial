@@ -9,14 +9,14 @@ public class Hackathon
 
 public class UseCase
 {
-    public int UseCaseId { get; set; }
+    public int UseCaseID { get; set; }
     public string UseCaseName { get; set; }
     public string Description { get; set; }
     public int CompanyId { get; set; }
 }
 public class Team
 {
-    public int TeamId { get; set; }
+    public int TeamID { get; set; }
     public int UseCaseId { get; set; }
     public string TeamName { get; set; }
     public int TeamSize { get; set; }
@@ -24,7 +24,7 @@ public class Team
 }
 public class Company
 {
-    public int CompanyId { get; set; }
+    public int CompanyID { get; set; }
     public string CompanyName { get; set; }
 
     public int CompanyUserId { get; set; }
@@ -32,7 +32,7 @@ public class Company
 
 public class User
 {
-    public int UserId { get; set; }
+    public int UserID { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string UserName { get; set; }
@@ -42,8 +42,8 @@ public class User
 
 public class Review
 {
-    public int UserId { get; set; }
-    public int TeamId { get; set; }
+    public int UserID { get; set; }
+    public int TeamID { get; set; }
 
     public int Marks { get; set; }
 
