@@ -27,7 +27,7 @@ public class Company
     public int COMPANYID { get; set; }
     public string CompanyName { get; set; }
 
-    public int CompanyUserId { get; set; }
+    public int COMPANYUSERID{ get; set; }
 }
 
 public class User
